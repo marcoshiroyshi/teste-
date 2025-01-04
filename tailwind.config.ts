@@ -12,8 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         customYellow: "#ffcb47",
-        customGray: '#202020'
+        customGray: '#202020',
       },
+      height: {
+        '45vh': "45vh",
+        '60vh': "60vh",
+      }
     },
   },
   plugins: [],

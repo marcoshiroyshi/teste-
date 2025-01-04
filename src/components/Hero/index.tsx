@@ -5,7 +5,7 @@ import Form from '../Form'
 
 function Hero() {
   return (
-    <section className="px-2 h-screen m-auto">	
+    <section className="px-2 h-60vh xl:h-screen m-auto">	
        <Nav/>
         <div className='grid grid-rows-2 xl:grid-cols-2'>
             <div className='mt-24 w-11/12 m-auto flex items-center justify-center flex-col xl:items-start'>
@@ -18,7 +18,7 @@ function Hero() {
             </div>
             <div className=''>
               <img className='hidden xl:block lg:w-9/12 lg:-ml-52'
-              src="./imgs/img-hero.png" alt=""/>
+              src="./imgs/img-hero.png" alt="planta"/>
             </div>
         </div>
     </section>
