@@ -6,7 +6,12 @@ export const NavContainer = styled.div`
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+
+    @media (min-width: 1024px) {
+        border: 1px solid black;
+        
+    }
 
 `
 export const Button = styled.button`
@@ -32,8 +37,10 @@ export const Button = styled.button`
     }
 `
 export const List = styled.ul`
+    font-family: "Montserrat", serif;
+    font-size: 1rem;
+    font-weight: 400;
     position: absolute;
-    border: 1px solid black;
     width: 90%;
     height: 100px;
     list-style: none;
@@ -53,14 +60,18 @@ export const ListDesktop = styled.ul`
     display: none;
     
     @media (min-width: 1024px){
+        font-family: "Montserrat", serif;
+        font-size: 1rem;
+        font-weight: 500;
         display: block;
-        width: 90%;
+        width: 50%;
         height: 100px;
         list-style: none;
         color: black;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 20px;
+
     }
 `

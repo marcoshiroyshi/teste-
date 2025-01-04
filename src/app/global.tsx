@@ -3,13 +3,6 @@
 import styled from "styled-components";
 import { createGlobalStyle } from 'styled-components';
 
-
-export const Body = styled.body`
-	margin: 0 2rem;
-
-	
-`
- 
 const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;

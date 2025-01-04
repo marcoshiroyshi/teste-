@@ -30,9 +30,13 @@ function Nav() {
             )}
             <ListDesktop>
                 <li>Como fazer</li>
+                <span>/</span>
                 <li>Ofertas</li>
+                <span>/</span>
                 <li>Depoimentos</li>
+                <span>/</span>
                 <li>Vídeos</li>
+                <span>/</span>
                 <li>Meu carrinho</li>
             </ListDesktop>
     </NavContainer>

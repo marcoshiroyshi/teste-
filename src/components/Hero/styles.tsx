@@ -13,3 +13,4 @@ export const HeroContainer = styled.section`
         background-position: top right;
     }
 `
+

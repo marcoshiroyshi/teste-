@@ -7,6 +7,7 @@ function Hero() {
   return (
     <HeroContainer>
       <Nav/>  
+      
     </HeroContainer>
   )
 }
