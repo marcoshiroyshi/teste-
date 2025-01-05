@@ -4,7 +4,7 @@ import { Button, List, ListDesktop, NavContainer } from './styles'
 import { useState } from 'react'
 
 function Nav() {
-    const [isOpen, setIsOpen] = useState(true)
+    const [isOpen, setIsOpen] = useState(false)
     
         function handleClick() {
             setIsOpen(!isOpen)

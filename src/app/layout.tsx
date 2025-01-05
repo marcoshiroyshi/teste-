@@ -5,6 +5,7 @@ import StyledJsxRegistry from "./registry";
 import GlobalStyle from "./global";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
+import { montserrat } from "@/app/fonts";
 
 export default function RootLayout({
   children,
@@ -13,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body>
+      <body className={montserrat.className}>
         <ThemeProvider theme={{theme}}>
           <GlobalStyle/>
             <StyledJsxRegistry>{children}</StyledJsxRegistry>

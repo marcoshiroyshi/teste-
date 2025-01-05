@@ -6,10 +6,11 @@ export const NavContainer = styled.div`
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 50px;
 
     @media (min-width: 1024px) {
-        border: 1px solid black;
+        
         
     }
 
