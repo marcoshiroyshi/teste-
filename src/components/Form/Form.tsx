@@ -1,8 +1,12 @@
 import React from 'react'
+import { FormContainer } from './styles'
 
 function Form() {
   return (
-    <div>Form</div>
+    <FormContainer>
+			<input type="email" placeholder="Your E-Mail Address" />
+			<button type="button">Send</button>
+		</FormContainer>
   )
 }
 

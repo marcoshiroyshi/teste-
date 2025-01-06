@@ -37,13 +37,11 @@ export const HeroContent = styled.div`
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
-            border: 1px solid red;
             margin-top: 0;
 
             div {
                 text-align: left;
                 width: 30%;
-                border: 1px solid blue;
                 margin-left: 2rem;
                 margin-top: -6rem;
 
@@ -61,7 +59,6 @@ export const HeroContent = styled.div`
                 display: block;
                 height: 30%;
                 width: 40%;
-                border: 1px solid blue;
                 margin-right: 20rem;
             }
 
