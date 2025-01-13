@@ -10,6 +10,7 @@ export const OffersContainer = styled.div`
   flex-direction: column;
   padding: 10px;
   gap: 1rem;
+  padding-top: 40px;
 `
 
 export const OffersText = styled.div`

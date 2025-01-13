@@ -10,6 +10,7 @@ export const OffersCardContainer = styled.div`
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 550px;
+  max-height: 300px;
 
   h1 {
     font-size: 3rem;
@@ -32,6 +33,10 @@ export const OffersCardContainer = styled.div`
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
+  }
+
+  img {
+    width: 30%;
   }
 
 `
